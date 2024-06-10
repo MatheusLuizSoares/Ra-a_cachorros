@@ -1,6 +1,5 @@
-
-const container = document.querySelector('.carousel-container');
-const images = document.querySelectorAll('.carousel img');
+const container = document.querySelector('.container');
+const dogs = document.querySelectorAll('.dog img');
 let index = 0;
 
 function showImage() {
@@ -9,11 +8,11 @@ function showImage() {
 }
 
 function prevImage() {
-  index = (index > 0) ? index - 1 : images.length - 1;
+  index = (index > 0) ? index - 1 : dogs.length - 1;
   showImage();
 }
 
 function nextImage() {
-  index = (index < images.length - 1) ? index + 1 : 0;
+  index = (index < dogs.length - 1) ? index + 1 : 0;
   showImage();
 }
