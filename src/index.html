@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <title>Landing Page</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-regular fa-paw" id="nav_logo">Cachorro</i>
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="raca.html">Raça de Cachorros</a>
+        </li>
+        <li class="nav-item">
+          <a href="dicas.html">Dicas e Conselhos</a>
+        </li>
+      </ul>
+      <button class="btn-default" onclick="window.location.href='login.html'">Login</button>
+      <button class="btn-default" onclick="window.location.href='register.html'">Registrar</button>
+      <button id="mobile_btn">
+        <i class="fa-solid fa-paw"></i>
+      </button>
+    </nav>
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav-item">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a href="raca.html">Raça de Cachorros</a>
+        </li>
+        <li class="nav-item">
+          <a href="dicas.html">Dicas e Conselhos</a>
+        </li>
+      </ul>
+      <button class="btn-default" onclick="window.location.href='login.html'">Login</button>
+      <button class="btn-default" onclick="window.location.href='register.html'">Registrar</button>
+    </div>
+  </header>
+  <main id="content">
+    <section id="home">
+      <div id="cta">
+        <h1 class="title">
+          Conheça as raças de cachorro e encontre seu 
+          <span>companheiro</span>
+        </h1>
+        <p class="description"> t</p>
+        <div id="cta_buttons">
+          <a href="raca.html" class="btn-default">Ver Raças</a>
+          <a href="dicas.html" class="btn-default">Ver Dicas</a>
+        </div>
+      </div>
+      <div id="banner"></div>
+    </section>
+  </main>
+  <script src="javascript/script.js"></script>
+</body>
+</html>
