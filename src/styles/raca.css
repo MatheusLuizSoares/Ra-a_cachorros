@@ -53,10 +53,11 @@ body {
 
 .dog img,
 .imagem-cortada_pitbull,
-.imagem-cortada_bulldog {
+.imagem-cortada_bulldog 
+{
   width: 100%; /* Definindo a largura das imagens */
   height: 200px; /* Definindo a altura das imagens */
-  border-radius: 45%; /* Moldura redonda */
+  border-radius: 30%; /* Moldura redonda */
   border: 6px solid yellow; /* Moldura amarela */
   /* Para garantir que a imagem cubra completamente o contêiner */
   object-position: top; /* Para focar na parte superior da imagem */
@@ -72,7 +73,7 @@ body {
 .dog img:hover,
 .imagem-cortada_pitbull:hover,
 .imagem-cortada_bulldog:hover {
-  border-color: #ffcc00; /* Cor da moldura ao passar o mouse */
+  border-color: #ffdc00; /* Cor da moldura ao passar o mouse */
 }
 
 .imagem-cortada_pitbull{
