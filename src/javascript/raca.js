@@ -30,9 +30,8 @@ function showInfo(breed) {
       break;
     case 'bulldog':
       infoText = 'O Bulldog é uma raça de cão de companhia, conhecida por sua cabeça larga e ombros robustos.';
+
       break;
-    case 'Poodle'
-     infoText=''
     default:
       infoText = 'Informações não disponíveis.';
   }
